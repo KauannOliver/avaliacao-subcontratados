@@ -1,45 +1,39 @@
-# Avaliação de Subcontratados
-Este projeto foi desenvolvido para facilitar o lançamento e a gestão de pontuações para motoristas e fornecedores, com base em critérios específicos. O sistema permite que o usuário selecione e preencha informações diretamente de uma planilha Excel e faça o lançamento das pontuações em abas distintas para motoristas e fornecedores.
+# Subcontractor Evaluation System
 
+This project was developed to streamline the scoring and management process for drivers and suppliers based on specific criteria. The system enables users to select and fill information directly from an Excel spreadsheet and post scores on separate tabs for drivers and suppliers.
 
-FUNCIONALIDADES PRINCIPAIS
+**KEY FEATURES**
 
-1. Lançamento de Pontuações de Motoristas
-O sistema permite a inserção de pontuações para motoristas, com base em critérios específicos. O usuário pode selecionar o motorista, escolher o critério de avaliação, e o sistema calcula automaticamente a pontuação total de acordo com o critério selecionado.
+1. **Driver Scoring**  
+   The system allows users to enter scores for drivers based on specific criteria. Users can select the driver, choose the evaluation criteria, and the system automatically calculates the total score according to the selected criterion.
 
-2. Lançamento de Pontuações de Fornecedores
-Além de motoristas, o sistema também possibilita o lançamento de pontuações para fornecedores, utilizando os critérios definidos para avaliá-los. O processo de preenchimento é semelhante ao de motoristas, garantindo uma interface consistente.
+2. **Supplier Scoring**  
+   In addition to drivers, the system also enables scoring for suppliers, using the defined criteria for their evaluation. The scoring process is similar to that of drivers, ensuring a consistent interface.
 
-3. Integração com Planilhas Excel
-O sistema lê os dados de motoristas, fornecedores e critérios diretamente de uma planilha Excel. As informações são carregadas automaticamente, e os lançamentos realizados são salvos na mesma planilha, garantindo fácil acesso aos dados.
+3. **Excel Spreadsheet Integration**  
+   The system reads driver, supplier, and criteria data directly from an Excel spreadsheet. Information is automatically loaded, and any entered scores are saved in the same sheet, ensuring easy access to data.
 
-4. Interface Gráfica Amigável
-Desenvolvido em PyQt5, o sistema oferece uma interface gráfica simples e intuitiva, com abas separadas para motoristas e fornecedores, facilitando o uso e a navegação entre diferentes módulos.
+4. **User-Friendly Graphical Interface**  
+   Developed with PyQt5, the system offers a simple, intuitive graphical interface with separate tabs for drivers and suppliers, making it easy to use and navigate between different modules.
 
-5. Tema Escuro
-Para melhorar a experiência do usuário, o sistema aplica um tema escuro, que torna a visualização mais agradável durante o uso prolongado.
+5. **Dark Theme**  
+   To improve user experience, the system applies a dark theme, making prolonged use more comfortable.
 
+**TECHNOLOGIES USED**
 
-TECNOLOGIAS UTILIZADAS
+1. **Python**: Main language used for system development.
+2. **PyQt5**: Library used to create the application's graphical interface.
+3. **Pandas**: Used for reading and managing data from the Excel spreadsheet.
+4. **Openpyxl**: Used to add new data and save entries in the Excel spreadsheet.
 
-1. Python: Linguagem principal utilizada para o desenvolvimento do sistema.
+**HOW IT WORKS**
 
-2. PyQt5: Biblioteca utilizada para criar a interface gráfica do aplicativo.
+1. The user launches the system and selects the Excel file containing drivers, suppliers, and criteria data.
+2. Through the interface, the user selects the relevant tab (Drivers or Suppliers).
+3. The user selects the driver or supplier's name, chooses the evaluation criteria, and the score is automatically filled.
+4. The system allows the user to save data directly in the Excel spreadsheet, updating the respective tab with new entries.
+5. A confirmation message informs the user that the data has been successfully posted.
 
-3. Pandas: Utilizado para leitura e manipulação dos dados da planilha Excel.
+**CONCLUSION**
 
-4. Openpyxl: Utilizado para adicionar novos dados e salvar os lançamentos na planilha Excel.
-
-
-COMO FUNCIONA
-
-O usuário inicia o sistema e seleciona o arquivo Excel que contém os dados de motoristas, fornecedores e critérios.
-Através da interface, o usuário escolhe a aba correspondente (Motoristas ou Fornecedores).
-O usuário seleciona o nome do motorista ou fornecedor, escolhe o critério de avaliação e a pontuação é preenchida automaticamente.
-O sistema permite que o usuário salve os dados diretamente na planilha Excel, atualizando a aba correspondente com os novos lançamentos.
-Uma mensagem de confirmação informa que os dados foram lançados com sucesso.
-
-
-CONCLUSÃO
-
-Este sistema oferece uma solução eficiente para o lançamento e gerenciamento de pontuações de motoristas e fornecedores. Com a integração de uma interface gráfica amigável e a manipulação direta de arquivos Excel, o processo de avaliação se torna mais prático e organizado.
+This system provides an efficient solution for posting and managing scores for drivers and suppliers. With a user-friendly interface and direct Excel file handling, the evaluation process becomes more practical and organized.
