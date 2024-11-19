@@ -1,39 +1,57 @@
-# Subcontractor Evaluation System
+# **Subcontractor Evaluation System**
 
-This project was developed to streamline the scoring and management process for drivers and suppliers based on specific criteria. The system enables users to select and fill information directly from an Excel spreadsheet and post scores on separate tabs for drivers and suppliers.
+This project simplifies the process of evaluating and managing scores for drivers and suppliers based on predefined criteria. By integrating Excel spreadsheet handling with a user-friendly interface, it ensures efficient and organized scoring.
 
-**KEY FEATURES**
+---
 
-1. **Driver Scoring**  
-   The system allows users to enter scores for drivers based on specific criteria. Users can select the driver, choose the evaluation criteria, and the system automatically calculates the total score according to the selected criterion.
+## **KEY FEATURES**
 
-2. **Supplier Scoring**  
-   In addition to drivers, the system also enables scoring for suppliers, using the defined criteria for their evaluation. The scoring process is similar to that of drivers, ensuring a consistent interface.
+### 1. **Driver Scoring**
+   - Enables users to evaluate drivers based on specific criteria.
+   - Automatically calculates total scores after the user selects the driver and criteria.
 
-3. **Excel Spreadsheet Integration**  
-   The system reads driver, supplier, and criteria data directly from an Excel spreadsheet. Information is automatically loaded, and any entered scores are saved in the same sheet, ensuring easy access to data.
+### 2. **Supplier Scoring**
+   - Similar functionality for evaluating suppliers, ensuring consistency in the scoring process across both modules.
 
-4. **User-Friendly Graphical Interface**  
-   Developed with PyQt5, the system offers a simple, intuitive graphical interface with separate tabs for drivers and suppliers, making it easy to use and navigate between different modules.
+### 3. **Excel Spreadsheet Integration**
+   - Reads driver, supplier, and criteria data directly from Excel.
+   - Saves updated scores back to the same file, ensuring seamless data handling.
 
-5. **Dark Theme**  
-   To improve user experience, the system applies a dark theme, making prolonged use more comfortable.
+### 4. **User-Friendly Graphical Interface**
+   - Developed using PyQt5, offering intuitive navigation and a clean layout.
+   - Separate tabs for driver and supplier evaluations streamline the workflow.
 
-**TECHNOLOGIES USED**
+### 5. **Dark Theme**
+   - A dark mode theme improves the user experience, especially during extended use.
 
-1. **Python**: Main language used for system development.
-2. **PyQt5**: Library used to create the application's graphical interface.
-3. **Pandas**: Used for reading and managing data from the Excel spreadsheet.
-4. **Openpyxl**: Used to add new data and save entries in the Excel spreadsheet.
+---
 
-**HOW IT WORKS**
+## **TECHNOLOGIES USED**
 
-1. The user launches the system and selects the Excel file containing drivers, suppliers, and criteria data.
-2. Through the interface, the user selects the relevant tab (Drivers or Suppliers).
-3. The user selects the driver or supplier's name, chooses the evaluation criteria, and the score is automatically filled.
-4. The system allows the user to save data directly in the Excel spreadsheet, updating the respective tab with new entries.
-5. A confirmation message informs the user that the data has been successfully posted.
+### 1. **Python**
+   - Core language for building the system's functionality.
 
-**CONCLUSION**
+### 2. **PyQt5**
+   - Creates a visually appealing and interactive graphical interface.
 
-This system provides an efficient solution for posting and managing scores for drivers and suppliers. With a user-friendly interface and direct Excel file handling, the evaluation process becomes more practical and organized.
+### 3. **Pandas**
+   - Handles data manipulation and retrieval from Excel sheets.
+
+### 4. **Openpyxl**
+   - Updates and saves data directly in Excel spreadsheets.
+
+---
+
+## **HOW IT WORKS**
+
+1. The user launches the application and selects an Excel file containing drivers, suppliers, and evaluation criteria.
+2. The user navigates to the relevant tab (Drivers or Suppliers).
+3. The system allows the user to select a driver or supplier, choose evaluation criteria, and enter scores.
+4. Calculated scores are saved directly into the Excel file.
+5. A confirmation message ensures that the data has been successfully posted.
+
+---
+
+## **CONCLUSION**
+
+The **Subcontractor Evaluation System** provides a robust and practical solution for managing evaluations of drivers and suppliers. By combining direct Excel integration with a well-designed graphical interface, it streamlines the scoring process and ensures data is organized and easily accessible. This tool is ideal for companies seeking to enhance their evaluation workflows.
